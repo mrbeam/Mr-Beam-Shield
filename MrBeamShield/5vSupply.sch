@@ -1,0 +1,203 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:analog_switches
+LIBS:contrib
+LIBS:pololu_a4988
+LIBS:r-785-1.0
+LIBS:arduino_shieldsNCL
+LIBS:pololu_socket
+LIBS:allegro_6210
+LIBS:fds8949
+LIBS:zero_ohm
+LIBS:pavilion
+LIBS:op-amp
+LIBS:lm3406
+LIBS:MrBeamShield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 14
+Title ""
+Date "1 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R-785-1.0 U4
+U 1 1 530C4D80
+P 3100 500
+F 0 "U4" H 2900 100 60  0000 C CNN
+F 1 "R-785-1.0" H 3100 400 60  0000 C CNN
+F 2 "~" H 3100 500 60  0000 C CNN
+F 3 "~" H 3100 500 60  0000 C CNN
+	1    3100 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P14
+U 1 1 530C4DB0
+P 600 750
+F 0 "P14" V 550 750 40  0000 C CNN
+F 1 "PWR IN" V 650 750 40  0000 C CNN
+F 2 "~" H 600 750 60  0000 C CNN
+F 3 "~" H 600 750 60  0000 C CNN
+	1    600  750 
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2700 700  0    60   Input ~ 0
++EXT_V
+Text GLabel 3700 700  2    60   Input ~ 0
++SRC_5V
+$Comp
+L C C11
+U 1 1 530C4E3F
+P 3600 900
+F 0 "C11" H 3600 1000 40  0000 L CNN
+F 1 "22uF" H 3606 815 40  0000 L CNN
+F 2 "~" H 3638 750 30  0000 C CNN
+F 3 "~" H 3600 900 60  0000 C CNN
+	1    3600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P15
+U 1 1 530C4E80
+P 2800 2000
+F 0 "P15" V 2750 2000 40  0000 C CNN
+F 1 "EXT 5V" V 2850 2000 40  0000 C CNN
+F 2 "~" H 2800 2000 60  0000 C CNN
+F 3 "~" H 2800 2000 60  0000 C CNN
+	1    2800 2000
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3150 1900 2    60   Input ~ 0
++SRC_5V
+$Comp
+L JUMPER JP12
+U 1 1 530C4EDB
+P 3100 1400
+F 0 "JP12" H 3100 1550 60  0000 C CNN
+F 1 "Arduino Pwr" H 3100 1320 40  0000 C CNN
+F 2 "~" H 3100 1400 60  0000 C CNN
+F 3 "~" H 3100 1400 60  0000 C CNN
+	1    3100 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 1400 0    60   Input ~ 0
++SRC_5V
+Text GLabel 3450 1400 2    60   Input ~ 0
++ARD_5V
+$Comp
+L GND #PWR37
+U 1 1 530C732F
+P 1400 850
+F 0 "#PWR37" H 1400 850 30  0001 C CNN
+F 1 "GND" H 1400 780 30  0001 C CNN
+F 2 "" H 1400 850 60  0000 C CNN
+F 3 "" H 1400 850 60  0000 C CNN
+	1    1400 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR39
+U 1 1 530C733E
+P 3150 2100
+F 0 "#PWR39" H 3150 2100 30  0001 C CNN
+F 1 "GND" H 3150 2030 30  0001 C CNN
+F 2 "" H 3150 2100 60  0000 C CNN
+F 3 "" H 3150 2100 60  0000 C CNN
+	1    3150 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR38
+U 1 1 530C734D
+P 3100 1100
+F 0 "#PWR38" H 3100 1100 30  0001 C CNN
+F 1 "GND" H 3100 1030 30  0001 C CNN
+F 2 "" H 3100 1100 60  0000 C CNN
+F 3 "" H 3100 1100 60  0000 C CNN
+	1    3100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR40
+U 1 1 530C735C
+P 3600 1100
+F 0 "#PWR40" H 3600 1100 30  0001 C CNN
+F 1 "GND" H 3600 1030 30  0001 C CNN
+F 2 "" H 3600 1100 60  0000 C CNN
+F 3 "" H 3600 1100 60  0000 C CNN
+	1    3600 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 650  2    60   Input ~ 0
++EXT_V
+$Comp
+L VCC #PWR36
+U 1 1 530C8D4F
+P 1000 650
+F 0 "#PWR36" H 1000 750 30  0001 C CNN
+F 1 "VCC" H 1000 750 30  0000 C CNN
+F 2 "" H 1000 650 60  0000 C CNN
+F 3 "" H 1000 650 60  0000 C CNN
+	1    1000 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG4
+U 1 1 530C8D5E
+P 1100 650
+F 0 "#FLG4" H 1100 745 30  0001 C CNN
+F 1 "PWR_FLAG" H 1100 830 30  0000 C CNN
+F 2 "" H 1100 650 60  0000 C CNN
+F 3 "" H 1100 650 60  0000 C CNN
+	1    1100 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG3
+U 1 1 530C8D73
+P 1050 850
+F 0 "#FLG3" H 1050 945 30  0001 C CNN
+F 1 "PWR_FLAG" H 1050 1030 30  0000 C CNN
+F 2 "" H 1050 850 60  0000 C CNN
+F 3 "" H 1050 850 60  0000 C CNN
+	1    1050 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 700  3700 700 
+Connection ~ 3700 700 
+Wire Wire Line
+	3100 1050 3100 1050
+Wire Wire Line
+	3150 2100 3150 2100
+Wire Wire Line
+	2700 700  2750 700 
+Wire Wire Line
+	3150 1900 3150 1900
+Wire Wire Line
+	950  650  1200 650 
+Connection ~ 3600 700 
+Connection ~ 1100 650 
+Connection ~ 1000 650 
+Connection ~ 1050 850 
+Wire Wire Line
+	3100 1100 3100 1050
+Wire Wire Line
+	3450 1400 3400 1400
+Wire Wire Line
+	2750 1400 2800 1400
+Wire Wire Line
+	950  850  1400 850 
+Connection ~ 1200 850 
+$EndSCHEMATC

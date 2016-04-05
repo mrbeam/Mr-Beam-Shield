@@ -1,0 +1,272 @@
+# EESchema Netlist Version 1.1 created  31/05/2013 00:07:51
+(
+ ( /517BB822 $noname  P2 CONN_8 {Lib=CONN_8}
+  (    1 EN )
+  (    2 MS1 )
+  (    3 MS2 )
+  (    4 ? )
+  (    5 RST )
+  (    6 SLEEP )
+  (    7 STEP )
+  (    8 DIR )
+ )
+ ( /517BB6D0 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 VMOT )
+  (    2 GND )
+  (    3 MOT_2B )
+  (    4 MOT_2A )
+  (    5 MOT_1A )
+  (    6 MOT_1B )
+  (    7 VDD )
+  (    8 GND )
+ )
+ ( /517BB65E $noname  R6 15k {Lib=R}
+  (    1 VDD )
+  (    2 N-000006 )
+ )
+ ( /517BB611 $noname  RV1 10K {Lib=POT}
+  (    1 GND )
+  (    2 N-000022 )
+  (    3 N-000006 )
+ )
+ ( /517BB55B $noname  C2 4.7u {Lib=C}
+  (    1 VMOT )
+  (    2 GND )
+ )
+ ( /517BB4C0 $noname  C4 0u1 {Lib=C}
+  (    1 GND )
+  (    2 VMOT )
+ )
+ ( /517BA7D2 $noname  R4 0R05 {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /517BA7D1 $noname  R5 0R05 {Lib=R}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /517BA7D0 $noname  C7 0u1 {Lib=C}
+  (    1 N-000011 )
+  (    2 N-000019 )
+ )
+ ( /517BA7CF $noname  C1 0u22 {Lib=C}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /517BA7CE $noname  R3 0R {Lib=R}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /517BA7CD $noname  C5 0u1 {Lib=C}
+  (    1 N-000012 )
+  (    2 VMOT )
+ )
+ ( /517BA7CC $noname  R1 100k {Lib=R}
+  (    1 SLEEP )
+  (    2 VDD )
+ )
+ ( /517BA7CB $noname  C6 0u22 {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /517BA7C8 $noname  R2 100k {Lib=R}
+  (    1 EN )
+  (    2 GND )
+ )
+ ( /517BA7C4 $noname  U1 A4982SLPTR {Lib=A4982SLPTR}
+  (    1 N-000011 )
+  (    2 N-000019 )
+  (    3 N-000012 )
+  (    4 N-000017 )
+  (    5 MS1 )
+  (    6 MS2 )
+  (    7 RST )
+  (    8 N-000020 )
+  (    9 SLEEP )
+  (   10 VDD )
+  (   11 STEP )
+  (   12 N-000022 )
+  (   13 GND )
+  (   14 DIR )
+  (   15 MOT_1B )
+  (   16 VMOT )
+  (   17 N-000016 )
+  (   18 MOT_1A )
+  (   19 MOT_2A )
+  (   20 N-000018 )
+  (   21 VMOT )
+  (   22 MOT_2B )
+  (   23 EN )
+  (   24 GND )
+  (   25 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C1 2
+ R5 2
+ R3 2
+ R4 2
+ R2 2
+ C6 2
+ U1 13
+ P1 2
+ U1 25
+ U1 24
+ P1 8
+ RV1 1
+ C2 2
+ C4 1
+Net 2 "MOT_2B" "MOT_2B"
+ U1 22
+ P1 3
+Net 3 "MOT_2A" "MOT_2A"
+ U1 19
+ P1 4
+Net 4 "MOT_1A" "MOT_1A"
+ U1 18
+ P1 5
+Net 5 "MOT_1B" "MOT_1B"
+ P1 6
+ U1 15
+Net 6 "" ""
+ RV1 3
+ R6 2
+Net 7 "STEP" "STEP"
+ P2 7
+ U1 11
+Net 9 "DIR" "DIR"
+ P2 8
+ U1 14
+Net 10 "EN" "EN"
+ R2 1
+ P2 1
+ U1 23
+Net 11 "" ""
+ U1 1
+ C7 1
+Net 12 "" ""
+ U1 3
+ C5 1
+Net 13 "MS1" "MS1"
+ U1 5
+ P2 2
+Net 14 "MS2" "MS2"
+ U1 6
+ P2 3
+Net 15 "RST" "RST"
+ P2 5
+ U1 7
+Net 16 "" ""
+ R5 1
+ U1 17
+Net 17 "" ""
+ U1 4
+ C1 1
+Net 18 "" ""
+ U1 20
+ R4 1
+Net 19 "" ""
+ C7 2
+ U1 2
+Net 20 "" ""
+ R3 1
+ U1 8
+Net 21 "SLEEP" "SLEEP"
+ R1 1
+ U1 9
+ P2 6
+Net 22 "" ""
+ U1 12
+ RV1 2
+Net 23 "VMOT" "VMOT"
+ U1 21
+ U1 16
+ C4 2
+ C2 1
+ P1 1
+ C5 2
+Net 24 "VDD" "VDD"
+ R1 2
+ U1 10
+ P1 7
+ R6 1
+ C6 1
+}
+#End

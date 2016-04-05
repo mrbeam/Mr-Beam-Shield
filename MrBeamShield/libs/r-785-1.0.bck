@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Mi 26 Feb 2014 11:02:41 CET
+#
+$CMP R-785-1.0
+D Recom 785-1.0
+K Recom 78xx DC Converter
+F /home/teja/dev/Laserillo/electronic/data_sheets/RECOM-DC_DC_WANDLER_INNOLINE_R_785_0_1_0_SIP3.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,182 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:analog_switches
+LIBS:contrib
+LIBS:pololu_a4988
+LIBS:r-785-1.0
+LIBS:arduino_shieldsNCL
+LIBS:pololu_socket
+LIBS:allegro_6210
+LIBS:fds8949
+LIBS:zero_ohm
+LIBS:pavilion
+LIBS:op-amp
+LIBS:lm3406
+LIBS:MrBeamShield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 14
+Title "noname.sch"
+Date "1 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4750 4600 2    60   Input ~ 0
+FAN_EN
+$Comp
+L CONN_2 FAN1
+U 1 1 530BD7EA
+P 3200 4350
+F 0 "FAN1" V 3150 4350 40  0000 C CNN
+F 1 "LD Fan" V 3250 4350 40  0000 C CNN
+F 2 "~" H 3200 4350 60  0000 C CNN
+F 3 "~" H 3200 4350 60  0000 C CNN
+	1    3200 4350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3050 4700 0    60   Input ~ 0
++EXT_V
+$Comp
+L R R13
+U 1 1 530BD84C
+P 4400 4600
+F 0 "R13" V 4480 4600 40  0000 C CNN
+F 1 "2k2" V 4407 4601 40  0000 C CNN
+F 2 "~" V 4330 4600 30  0000 C CNN
+F 3 "~" H 4400 4600 30  0000 C CNN
+	1    4400 4600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4750 4600 4650 4600
+$Comp
+L FDS8949 Q2
+U 1 1 530FCB78
+P 3800 4300
+F 0 "Q2" H 4050 4800 60  0000 C CNN
+F 1 "FDS8949" H 3800 4300 60  0000 C CNN
+F 2 "~" H 3800 4600 60  0000 C CNN
+F 3 "~" H 3800 4600 60  0000 C CNN
+	1    3800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4850 4100 4900
+Wire Wire Line
+	4100 4600 4150 4600
+Wire Wire Line
+	3050 4700 3100 4700
+Wire Wire Line
+	3300 4700 3400 4700
+Wire Wire Line
+	3400 4600 3400 4850
+Wire Wire Line
+	3400 4600 3500 4600
+Wire Wire Line
+	3400 4850 3500 4850
+Connection ~ 3400 4700
+Text Label 3300 4700 0    21   ~ 0
+Fan-
+$Comp
+L CONN_2 AUX1
+U 1 1 531319AD
+P 3200 3750
+F 0 "AUX1" V 3150 3750 40  0000 C CNN
+F 1 "AUX" V 3250 3750 40  0000 C CNN
+F 2 "~" H 3200 3750 60  0000 C CNN
+F 3 "~" H 3200 3750 60  0000 C CNN
+	1    3200 3750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3050 4100 0    60   Input ~ 0
++EXT_V
+Wire Wire Line
+	3050 4100 3100 4100
+Wire Wire Line
+	3300 4100 3400 4100
+Wire Wire Line
+	3400 4000 3400 4250
+Wire Wire Line
+	3400 4000 3500 4000
+Wire Wire Line
+	3400 4250 3500 4250
+Connection ~ 3400 4100
+Text Label 3300 4100 0    21   ~ 0
+Aux-
+Text GLabel 4750 4000 2    60   Input ~ 0
+AUX_EN
+$Comp
+L R R14
+U 1 1 531319DF
+P 4400 4000
+F 0 "R14" V 4480 4000 40  0000 C CNN
+F 1 "2k2" V 4407 4001 40  0000 C CNN
+F 2 "~" V 4330 4000 30  0000 C CNN
+F 3 "~" H 4400 4000 30  0000 C CNN
+	1    4400 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4750 4000 4650 4000
+Wire Wire Line
+	4100 4000 4150 4000
+Wire Wire Line
+	4100 4250 4100 4300
+$Comp
+L GND #PWR42
+U 1 1 53149AC4
+P 4100 4900
+F 0 "#PWR42" H 4100 4900 30  0001 C CNN
+F 1 "GND" H 4100 4830 30  0001 C CNN
+F 2 "" H 4100 4900 60  0000 C CNN
+F 3 "" H 4100 4900 60  0000 C CNN
+	1    4100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR41
+U 1 1 53149AD3
+P 4100 4300
+F 0 "#PWR41" H 4100 4300 30  0001 C CNN
+F 1 "GND" H 4100 4230 30  0001 C CNN
+F 2 "" H 4100 4300 60  0000 C CNN
+F 3 "" H 4100 4300 60  0000 C CNN
+	1    4100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 5335D4BB
+P 4650 3650
+F 0 "R20" V 4730 3650 40  0000 C CNN
+F 1 "10k" V 4657 3651 40  0000 C CNN
+F 2 "~" V 4580 3650 30  0000 C CNN
+F 3 "~" H 4650 3650 30  0000 C CNN
+	1    4650 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 3300 4650 3400
+Wire Wire Line
+	4650 4000 4650 3900
+$Comp
+L GND #PWR43
+U 1 1 53D931B2
+P 4650 3300
+F 0 "#PWR43" H 4650 3300 30  0001 C CNN
+F 1 "GND" H 4650 3230 30  0001 C CNN
+F 2 "" H 4650 3300 60  0000 C CNN
+F 3 "" H 4650 3300 60  0000 C CNN
+	1    4650 3300
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

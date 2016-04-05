@@ -1,0 +1,286 @@
+PCBNEW-LibModule-V1  Friday, 20 June 2014 14:17:51
+# encoding utf-8
+Units mm
+$INDEX
+JMP
+my:pavillion_lm3406
+qfn-16_cooled
+$EndINDEX
+$MODULE JMP
+Po 0 0 0 15 53158C77 00000000 ~~
+Li JMP
+Sc 0
+AR 
+Op 0 0 0
+T0 0.09906 -2.4003 1.27 1.27 0 0.1016 N V 21 N "JMP"
+T1 0.29972 2.70002 1.27 1.27 0 0.1016 N V 21 N "VAL**"
+DS -0.762 0.508 0.762 0.508 0.35 15
+DS -0.762 0.254 0.762 0.254 0.35 15
+DS -0.762 -0.254 0.762 -0.254 0.35 15
+DS -0.762 -0.508 0.762 -0.508 0.35 15
+$PAD
+Sh "1" R 0.09906 1.50076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.889 0
+$EndPAD
+$PAD
+Sh "2" R 0.09906 1.50076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.889 0
+$EndPAD
+$PAD
+Sh "3" R 1.09906 0.10076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE JMP
+$MODULE my:pavillion_lm3406
+Po 0 0 0 15 533317B5 00000000 ~~
+Li my:pavillion_lm3406
+Sc 0
+AR /530C4D35/5314A809
+Op 0 0 0
+T0 0.09906 -2.4003 1.27 1.27 0 0.1016 N I 21 N "J4"
+T1 0.29972 2.70002 1.27 1.27 0 0.1016 N I 21 N "JMP"
+DS -0.889 0 0.381 -0.635 0.25 15
+DS 0.381 0.635 -0.889 0 0.25 15
+DS -0.762 0 0.762 0 0.35 15
+$PAD
+Sh "1" C 0.5 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00008000
+Ne 1 "DGND"
+Po -0.889 0
+$EndPAD
+$PAD
+Sh "2" C 1.59906 1.59906 0 0 0
+Dr 0 0 0
+At SMD N 00008000
+Ne 2 "GND"
+Po 0.508 0
+$EndPAD
+$EndMODULE my:pavillion_lm3406
+$MODULE qfn-16_cooled
+Po 0 0 0 15 5315A65E 00000000 ~~
+Li qfn-16_cooled
+Cd Plastic QFP, Freescale QFN-16
+Sc 0
+AR /530BDD2A/530B7D84
+Op 0 0 0
+T0 0 -2.90068 0.39878 0.39878 0 0.07874 N V 21 N "A6210-1"
+T1 0 3.0988 0.39878 0.39878 0 0.07874 N V 21 N "ALLEGRO_6210"
+DS -1.80048 2.60058 -2.60058 1.80048 0.127 21
+DS -2.60058 1.80048 -2.60058 2.60058 0.127 21
+DS -2.60058 2.60058 -1.80048 2.60058 0.127 21
+DS -2.49898 2.00114 -2.00114 2.49898 0.127 21
+DS -2.49898 2.1002 -2.1002 2.49898 0.127 21
+DS -2.1002 2.49898 -2.19926 2.49898 0.127 21
+DS -2.19926 2.49898 -2.49898 2.19926 0.127 21
+DS -2.49898 2.19926 -2.49898 2.30086 0.127 21
+DS -2.49898 2.30086 -2.30086 2.49898 0.127 21
+DS -2.5 2.5 -2.5 -2.5 0.127 21
+DS -2.5 -2.5 2.5 -2.5 0.127 21
+DS 2.5 -2.5 2.5 2.5 0.127 21
+DS 2.5 2.5 -2.5 2.5 0.127 21
+DC -1.80208 1.797 -1.60396 1.8986 0.19812 21
+$PAD
+Sh "1" R 1.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+EXT_V"
+Po -1.7 2.65
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "2" R 0.36 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po -0.4 2.0574
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "3" R 0.36 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-0000056"
+Po 0.4 2.25
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "4" R 0.36 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 1.2 2.05
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "6" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 2.05 0.4
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "7" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 2.05 -0.4
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "8" R 1.2 1.76 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/Diode Driver/I_sense"
+Po 2.45 -1.9
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "9" R 0.36 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 1.2 -2.05
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "10" R 0.36 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/Diode Driver/InversePWM"
+Po 0.4 -2.25
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "21" R 3.25 3.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 0 0
+.SolderMask 0.07
+.SolderPaste -0.1
+$EndPAD
+$PAD
+Sh "11" R 0.36 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "N-0000057"
+Po -0.4 -2.25
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "12" R 1.36 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/Diode Driver/LD_out"
+Po -1.7 -2.65
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "13" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po -2.05 -1.2
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "14" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po -2.05 -0.39624
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "15" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po -2.05 0.4064
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "16" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po -2.05 1.1938
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "5" R 1.2 0.36 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 2.05 1.2
+.SolderMask 0.07
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.762 0
+.ZoneConnection 2
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.762 0
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.381 -0.635
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.381 -0.635
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.381 0.635
+$EndPAD
+$PAD
+Sh "" C 0.6 0.6 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.381 0.635
+$EndPAD
+$SHAPE3D
+Na "smisioto.no-ip.org/walter/smd_qfn/qfn-16.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE qfn-16_cooled
+$EndLIBRARY

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0  Date: So 02 Mär 2014 17:35:56 CET
+#
+$CMP 0k
+D Zero Ohm dummy separates GND and GNDPWR
+$ENDCMP
+#
+$CMP 0Ω
+D Zero Ohm dummy separates GND and GNDPWR
+$ENDCMP
+#
+#End Doc Library

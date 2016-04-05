@@ -1,0 +1,619 @@
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Fr 01 Aug 2014 15:12:26 CEST
+
+BeginCmp
+TimeStamp = /530C5198/531319AD;
+Reference = AUX1;
+ValeurCmp = AUX;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBAA/530B98F2;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = my:elko_horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBC8/530B98F2;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = my:elko_horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBCA/530B98F2;
+Reference = C3;
+ValeurCmp = 100uF;
+IdModule  = my:elko_horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B8599;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = my:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B85CC;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = my:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B2BB1;
+Reference = C6;
+ValeurCmp = 2,2uF;
+IdModule  = w_smd:c_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B312B;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = w_smd:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B8CE9;
+Reference = C8;
+ValeurCmp = 22nF;
+IdModule  = my:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B8E81;
+Reference = C9;
+ValeurCmp = 2,2uF;
+IdModule  = w_smd:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B3171;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = w_smd:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C4D35/530C4E3F;
+Reference = C11;
+ValeurCmp = 22uF;
+IdModule  = my:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBAA/53D27CE0;
+Reference = CS1;
+ValeurCmp = 100uF;
+IdModule  = c_elec_8x6.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBC8/53D27CE0;
+Reference = CS2;
+ValeurCmp = 100uF;
+IdModule  = c_elec_8x6.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBCA/53D27CE0;
+Reference = CS3;
+ValeurCmp = 100uF;
+IdModule  = c_elec_8x6.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B598D;
+Reference = D1;
+ValeurCmp = MBRS540T3;
+IdModule  = my:do214ab;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B59A7;
+Reference = D2;
+ValeurCmp = MBRS540T3;
+IdModule  = my:do214ab;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C5198/530BD7EA;
+Reference = FAN1;
+ValeurCmp = LD Fan;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B5E96;
+Reference = IC1;
+ValeurCmp = NC7WZ08K8X;
+IdModule  = my:US8;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53A42BF0;
+Reference = J7001;
+ValeurCmp = JMP;
+IdModule  = PAV_LM3406;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53A42DB8;
+Reference = J7002;
+ValeurCmp = JMP;
+IdModule  = PAV_LM3406;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53A445E1;
+Reference = J7003;
+ValeurCmp = JMP;
+IdModule  = JMP;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B9075;
+Reference = JP1;
+ValeurCmp = xend1;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B908E;
+Reference = JP2;
+ValeurCmp = xend2;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B909D;
+Reference = JP3;
+ValeurCmp = yend1;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B90AC;
+Reference = JP4;
+ValeurCmp = yend2;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B90BB;
+Reference = JP5;
+ValeurCmp = zend1;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDC91/530B90CA;
+Reference = JP6;
+ValeurCmp = zend2;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B84DD;
+Reference = JP7;
+ValeurCmp = Intrlck1;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B90C2;
+Reference = JP8;
+ValeurCmp = CS1;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B90E0;
+Reference = JP9;
+ValeurCmp = CS2;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B90EF;
+Reference = JP10;
+ValeurCmp = CS3;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C4D35/530C4EDB;
+Reference = JP12;
+ValeurCmp = Arduino Pwr;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/53131EEC;
+Reference = JP13;
+ValeurCmp = AUX;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD66A;
+Reference = K1;
+ValeurCmp = ExtTmp;
+IdModule  = pins:PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD6CE;
+Reference = K2;
+ValeurCmp = A5;
+IdModule  = pins:PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDA88/53149D05;
+Reference = K3;
+ValeurCmp = EXT_TEC;
+IdModule  = pins:PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/5314A351;
+Reference = K4;
+ValeurCmp = ExtLaserMod;
+IdModule  = pins:PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53DB92E2;
+Reference = K5;
+ValeurCmp = Intrlck2;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B652C;
+Reference = L1;
+ValeurCmp = 54uH 1.5A;
+IdModule  = my:Coil_SMD_12x12x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A16EFC/53A188A7;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = pins:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD478;
+Reference = P2;
+ValeurCmp = Reset;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD401;
+Reference = P3;
+ValeurCmp = MachineCtrl;
+IdModule  = pins:PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBAA/530B9924;
+Reference = P4;
+ValeurCmp = MS;
+IdModule  = pins:pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBAA/530B98CA;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = pins:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBC8/530B9924;
+Reference = P6;
+ValeurCmp = MS;
+IdModule  = pins:pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBC8/530B98CA;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = pins:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBCA/530B9924;
+Reference = P8;
+ValeurCmp = MS;
+IdModule  = pins:pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBCA/530B98CA;
+Reference = P9;
+ValeurCmp = CONN_4;
+IdModule  = pins:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530C8A76;
+Reference = P10;
+ValeurCmp = LD_OUT;
+IdModule  = my:LD_out;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A199E1/53A188A7;
+Reference = P11;
+ValeurCmp = CONN_4;
+IdModule  = pins:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53AD9979;
+Reference = P12;
+ValeurCmp = CONN_RPi;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53AD9997;
+Reference = P13;
+ValeurCmp = CONN_1_8;
+IdModule  = connector_1x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C4D35/530C4DB0;
+Reference = P14;
+ValeurCmp = PWR IN;
+IdModule  = pwr_jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C4D35/530C4E80;
+Reference = P15;
+ValeurCmp = EXT 5V;
+IdModule  = pins:PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/531DEFE6;
+Reference = P16;
+ValeurCmp = Serial;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53AD9988;
+Reference = P17;
+ValeurCmp = CONN_9_16;
+IdModule  = connector_1x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C5198/530FCB78;
+Reference = Q2;
+ValeurCmp = FDS8949;
+IdModule  = kicad-soic:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/53133455;
+Reference = Q3;
+ValeurCmp = BSS138;
+IdModule  = sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD3DC;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B8733;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B4783;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B1D46;
+Reference = R7;
+ValeurCmp = 2.2k;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B2BC5;
+Reference = R8;
+ValeurCmp = 169k;
+IdModule  = smd_res:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B9121;
+Reference = R9;
+ValeurCmp = 560m;
+IdModule  = smd_res:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B9130;
+Reference = R10;
+ValeurCmp = 240m;
+IdModule  = smd_res:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/530B913F;
+Reference = R11;
+ValeurCmp = 160m;
+IdModule  = smd_res:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B35CD;
+Reference = R12;
+ValeurCmp = 560m;
+IdModule  = smd_res:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C5198/530BD84C;
+Reference = R13;
+ValeurCmp = 2k2;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C5198/531319DF;
+Reference = R14;
+ValeurCmp = 2k2;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/531334B9;
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/531334C8;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/531334E6;
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A461F1/531334D7;
+Reference = R18;
+ValeurCmp = 20k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53ADA2A0;
+Reference = R19;
+ValeurCmp = R;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C5198/5335D4BB;
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = smd_res:r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53ADA2AF;
+Reference = R21;
+ValeurCmp = R;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53C672C5;
+Reference = R22;
+ValeurCmp = 150;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53C6744E;
+Reference = R23;
+ValeurCmp = 10k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/53C6ADA5;
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = r_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AD9ECA/53ADA1AF;
+Reference = RV1;
+ValeurCmp = 10K;
+IdModule  = trim_murata_pvz2a;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD1C9;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = arduino:ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDB52/530BD4AD;
+Reference = SW1;
+ValeurCmp = Reset_Btn;
+IdModule  = my:PCB_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBAA/530B98B1;
+Reference = U1;
+ValeurCmp = POLOLU_A4988;
+IdModule  = my:Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBC8/530B98B1;
+Reference = U2;
+ValeurCmp = POLOLU_A4988;
+IdModule  = my:Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDBCA/530B98B1;
+Reference = U3;
+ValeurCmp = POLOLU_A4988;
+IdModule  = my:Pololu_Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C4D35/530C4D80;
+Reference = U4;
+ValeurCmp = R-785-1.0;
+IdModule  = my:Recom78XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BDD2A/539B3210;
+Reference = U5;
+ValeurCmp = LM3406;
+IdModule  = lm3406;
+EndCmp
+
+EndListe

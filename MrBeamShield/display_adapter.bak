@@ -1,0 +1,225 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:analog_switches
+LIBS:contrib
+LIBS:pololu_a4988
+LIBS:r-785-1.0
+LIBS:arduino_shieldsNCL
+LIBS:pololu_socket
+LIBS:allegro_6210
+LIBS:fds8949
+LIBS:zero_ohm
+LIBS:pavilion
+LIBS:op-amp
+LIBS:lm3406
+LIBS:MrBeamShield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 14
+Title "noname.sch"
+Date "1 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_13X2 P12
+U 1 1 53AD9979
+P 1900 3500
+F 0 "P12" H 1900 4200 60  0000 C CNN
+F 1 "CONN_RPi" V 1900 3500 50  0000 C CNN
+F 2 "~" H 1900 3500 60  0000 C CNN
+F 3 "~" H 1900 3500 60  0000 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P17
+U 1 1 53AD9988
+P 5600 4000
+F 0 "P17" V 5550 4000 60  0000 C CNN
+F 1 "CONN_9_16" V 5650 4000 60  0000 C CNN
+F 2 "~" H 5600 4000 60  0000 C CNN
+F 3 "~" H 5600 4000 60  0000 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P13
+U 1 1 53AD9997
+P 5600 3150
+F 0 "P13" V 5550 3150 60  0000 C CNN
+F 1 "CONN_1_8" V 5650 3150 60  0000 C CNN
+F 2 "~" H 5600 3150 60  0000 C CNN
+F 3 "~" H 5600 3150 60  0000 C CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2900 5250 2900
+Wire Wire Line
+	2300 3000 3250 3000
+Wire Wire Line
+	3250 3000 3250 4250
+Wire Wire Line
+	3250 4250 5250 4250
+Wire Wire Line
+	2300 3100 3100 3100
+Wire Wire Line
+	3100 3100 3100 2800
+Wire Wire Line
+	3100 2800 5250 2800
+Wire Wire Line
+	1500 3400 1200 3400
+Wire Wire Line
+	1200 3400 1200 2600
+Wire Wire Line
+	1200 2600 3400 2600
+Wire Wire Line
+	3400 2600 3400 3950
+Wire Wire Line
+	3400 3950 5250 3950
+Wire Wire Line
+	1500 3500 1100 3500
+Wire Wire Line
+	1100 3500 1100 2500
+Wire Wire Line
+	1100 2500 3500 2500
+Wire Wire Line
+	3500 2500 3500 4050
+Wire Wire Line
+	3500 4050 5250 4050
+Wire Wire Line
+	2300 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 3200
+Wire Wire Line
+	3800 3200 5250 3200
+Wire Wire Line
+	1500 3600 1100 3600
+Wire Wire Line
+	1100 3600 1100 4450
+Wire Wire Line
+	1100 4450 3850 4450
+Wire Wire Line
+	3850 4450 3850 4150
+Wire Wire Line
+	3850 4150 5250 4150
+Wire Wire Line
+	2300 3600 3800 3600
+Wire Wire Line
+	3800 3600 3800 3850
+Wire Wire Line
+	3800 3850 5250 3850
+Wire Wire Line
+	2300 3700 3900 3700
+Wire Wire Line
+	3900 3700 3900 3300
+Wire Wire Line
+	3900 3300 5250 3300
+Wire Wire Line
+	2300 3800 3150 3800
+Wire Wire Line
+	3150 3800 3150 4350
+Wire Wire Line
+	3150 4350 5250 4350
+Wire Wire Line
+	2300 3900 3050 3900
+Wire Wire Line
+	3050 3900 3050 3300
+Wire Wire Line
+	3050 3300 3600 3300
+Wire Wire Line
+	3600 3300 3600 3100
+Wire Wire Line
+	3600 3100 5250 3100
+$Comp
+L POT RV1
+U 1 1 53ADA1AF
+P 4600 2500
+F 0 "RV1" H 4600 2400 50  0000 C CNN
+F 1 "10K" H 4600 2500 50  0000 C CNN
+F 2 "~" H 4600 2500 60  0000 C CNN
+F 3 "~" H 4600 2500 60  0000 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2800
+Connection ~ 4850 2900
+Wire Wire Line
+	4150 2350 4800 2350
+Wire Wire Line
+	4150 2350 4150 3000
+Wire Wire Line
+	4150 3000 5250 3000
+Wire Wire Line
+	4350 2500 4250 2500
+Wire Wire Line
+	4250 2500 4250 2900
+Connection ~ 4250 2900
+Wire Wire Line
+	4850 2500 4850 2800
+Connection ~ 4850 2800
+$Comp
+L R R19
+U 1 1 53ADA2A0
+P 4400 1750
+F 0 "R19" V 4480 1750 40  0000 C CNN
+F 1 "R" V 4407 1751 40  0000 C CNN
+F 2 "~" V 4330 1750 30  0000 C CNN
+F 3 "~" H 4400 1750 30  0000 C CNN
+	1    4400 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R21
+U 1 1 53ADA2AF
+P 5150 1750
+F 0 "R21" V 5230 1750 40  0000 C CNN
+F 1 "R" V 5157 1751 40  0000 C CNN
+F 2 "~" V 5080 1750 30  0000 C CNN
+F 3 "~" H 5150 1750 30  0000 C CNN
+	1    5150 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 2500 4350 2000
+Wire Wire Line
+	4350 2000 4150 1750
+Wire Wire Line
+	4800 2350 4650 1750
+Connection ~ 4600 2350
+Wire Wire Line
+	4650 1750 4900 1750
+Wire Wire Line
+	5400 1750 5400 2500
+Wire Wire Line
+	5400 2500 4850 2500
+NoConn ~ 1500 2900
+NoConn ~ 1500 3000
+NoConn ~ 1500 3100
+NoConn ~ 1500 3200
+NoConn ~ 1500 3300
+NoConn ~ 1500 3700
+NoConn ~ 1500 3800
+NoConn ~ 1500 4000
+NoConn ~ 1500 4100
+NoConn ~ 2300 4100
+NoConn ~ 2300 4000
+NoConn ~ 2300 3400
+NoConn ~ 2300 3300
+NoConn ~ 2300 3200
+NoConn ~ 5250 3400
+NoConn ~ 5250 3500
+NoConn ~ 5250 3650
+NoConn ~ 5250 3750
+NoConn ~ 1500 3900
+$EndSCHEMATC

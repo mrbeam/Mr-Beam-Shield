@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: Di 25 Feb 2014 18:05:23 CET
+#
+$CMP POLOLU_A4988
+D Pololu A4988 / Stepstick Stepper driver from reprap.org
+K Pololu Stepstick Reprap
+$ENDCMP
+#
+$CMP POLOLU_SCKT
+D Pololu A4988 / Stepstick Stepper driver from reprap.org
+K Pololu Stepstick Reprap
+$ENDCMP
+#
+$CMP POLOLU_SOCKET
+D Pololu Socket
+K Pololu Stepstick RepRap
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,204 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:analog_switches
+LIBS:contrib
+LIBS:pololu_a4988
+LIBS:r-785-1.0
+LIBS:arduino_shieldsNCL
+LIBS:pololu_socket
+LIBS:allegro_6210
+LIBS:fds8949
+LIBS:zero_ohm
+LIBS:pavilion
+LIBS:op-amp
+LIBS:lm3406
+LIBS:MrBeamShield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 14
+Title "noname.sch"
+Date "1 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 900  5850 0    60   Input ~ 0
+X_End
+$Comp
+L JUMPER JP1
+U 1 1 530B9075
+P 1500 5850
+F 0 "JP1" H 1500 6000 60  0000 C CNN
+F 1 "xend1" H 1500 5770 40  0000 C CNN
+F 2 "~" H 1500 5850 60  0000 C CNN
+F 3 "~" H 1500 5850 60  0000 C CNN
+	1    1500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP2
+U 1 1 530B908E
+P 1500 6200
+F 0 "JP2" H 1500 6350 60  0000 C CNN
+F 1 "xend2" H 1500 6120 40  0000 C CNN
+F 2 "~" H 1500 6200 60  0000 C CNN
+F 3 "~" H 1500 6200 60  0000 C CNN
+	1    1500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP3
+U 1 1 530B909D
+P 1500 6550
+F 0 "JP3" H 1500 6700 60  0000 C CNN
+F 1 "yend1" H 1500 6470 40  0000 C CNN
+F 2 "~" H 1500 6550 60  0000 C CNN
+F 3 "~" H 1500 6550 60  0000 C CNN
+	1    1500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP4
+U 1 1 530B90AC
+P 1500 6900
+F 0 "JP4" H 1500 7050 60  0000 C CNN
+F 1 "yend2" H 1500 6820 40  0000 C CNN
+F 2 "~" H 1500 6900 60  0000 C CNN
+F 3 "~" H 1500 6900 60  0000 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP5
+U 1 1 530B90BB
+P 1500 7250
+F 0 "JP5" H 1500 7400 60  0000 C CNN
+F 1 "zend1" H 1500 7170 40  0000 C CNN
+F 2 "~" H 1500 7250 60  0000 C CNN
+F 3 "~" H 1500 7250 60  0000 C CNN
+	1    1500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP6
+U 1 1 530B90CA
+P 1500 7600
+F 0 "JP6" H 1500 7750 60  0000 C CNN
+F 1 "zend2" H 1500 7520 40  0000 C CNN
+F 2 "~" H 1500 7600 60  0000 C CNN
+F 3 "~" H 1500 7600 60  0000 C CNN
+	1    1500 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  6550 0    60   Input ~ 0
+Y_End
+Text GLabel 900  7250 0    60   Input ~ 0
+Z_End
+Wire Wire Line
+	900  5850 1200 5850
+Wire Wire Line
+	1200 6200 1050 6200
+Wire Wire Line
+	1050 6200 1050 5850
+Connection ~ 1050 5850
+Wire Wire Line
+	900  6550 1200 6550
+Wire Wire Line
+	1200 6900 1050 6900
+Wire Wire Line
+	1050 6900 1050 6550
+Connection ~ 1050 6550
+Wire Wire Line
+	900  7250 1200 7250
+Wire Wire Line
+	1200 7600 1050 7600
+Wire Wire Line
+	1050 7600 1050 7250
+Connection ~ 1050 7250
+Wire Wire Line
+	1800 5850 1900 5850
+Wire Wire Line
+	1900 6200 1800 6200
+Wire Wire Line
+	1800 6550 1900 6550
+Wire Wire Line
+	1900 6900 1800 6900
+Wire Wire Line
+	1800 7250 1900 7250
+Wire Wire Line
+	1900 7600 1800 7600
+$Comp
+L GND #PWR14
+U 1 1 53D939B3
+P 1900 5850
+F 0 "#PWR14" H 1900 5850 30  0001 C CNN
+F 1 "GND" H 1900 5780 30  0001 C CNN
+F 2 "" H 1900 5850 60  0000 C CNN
+F 3 "" H 1900 5850 60  0000 C CNN
+	1    1900 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR15
+U 1 1 53D939C7
+P 1900 6200
+F 0 "#PWR15" H 1900 6200 30  0001 C CNN
+F 1 "GND" H 1900 6130 30  0001 C CNN
+F 2 "" H 1900 6200 60  0000 C CNN
+F 3 "" H 1900 6200 60  0000 C CNN
+	1    1900 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR16
+U 1 1 53D939DB
+P 1900 6550
+F 0 "#PWR16" H 1900 6550 30  0001 C CNN
+F 1 "GND" H 1900 6480 30  0001 C CNN
+F 2 "" H 1900 6550 60  0000 C CNN
+F 3 "" H 1900 6550 60  0000 C CNN
+	1    1900 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR17
+U 1 1 53D939EA
+P 1900 6900
+F 0 "#PWR17" H 1900 6900 30  0001 C CNN
+F 1 "GND" H 1900 6830 30  0001 C CNN
+F 2 "" H 1900 6900 60  0000 C CNN
+F 3 "" H 1900 6900 60  0000 C CNN
+	1    1900 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR18
+U 1 1 53D939FE
+P 1900 7250
+F 0 "#PWR18" H 1900 7250 30  0001 C CNN
+F 1 "GND" H 1900 7180 30  0001 C CNN
+F 2 "" H 1900 7250 60  0000 C CNN
+F 3 "" H 1900 7250 60  0000 C CNN
+	1    1900 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR19
+U 1 1 53D93A12
+P 1900 7600
+F 0 "#PWR19" H 1900 7600 30  0001 C CNN
+F 1 "GND" H 1900 7530 30  0001 C CNN
+F 2 "" H 1900 7600 60  0000 C CNN
+F 3 "" H 1900 7600 60  0000 C CNN
+	1    1900 7600
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

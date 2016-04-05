@@ -1,0 +1,159 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:analog_switches
+LIBS:contrib
+LIBS:pololu_a4988
+LIBS:r-785-1.0
+LIBS:arduino_shieldsNCL
+LIBS:pololu_socket
+LIBS:allegro_6210
+LIBS:fds8949
+LIBS:zero_ohm
+LIBS:pavilion
+LIBS:op-amp
+LIBS:lm3406
+LIBS:MrBeamShield-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date "1 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1550 1550 0    60   Input ~ 0
+RX_LV
+Text GLabel 2450 1550 2    60   Input ~ 0
+RX_HV
+Text GLabel 2250 2550 0    60   Input ~ 0
+TX_LV
+Text GLabel 2450 1850 2    60   Input ~ 0
+TX_HV
+$Comp
+L BSS138 Q3
+U 1 1 53133455
+P 2000 1450
+F 0 "Q3" H 2000 1301 40  0000 R CNN
+F 1 "BSS138" H 2000 1600 40  0000 R CNN
+F 2 "SOT-23" H 1870 1552 29  0000 C CNN
+F 3 "" H 2000 1450 60  0000 C CNN
+	1    2000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 531334B9
+P 1700 1300
+F 0 "R15" V 1780 1300 40  0000 C CNN
+F 1 "10k" V 1707 1301 40  0000 C CNN
+F 2 "~" V 1630 1300 30  0000 C CNN
+F 3 "~" H 1700 1300 30  0000 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 531334C8
+P 2350 1300
+F 0 "R16" V 2430 1300 40  0000 C CNN
+F 1 "10k" V 2357 1301 40  0000 C CNN
+F 2 "~" V 2280 1300 30  0000 C CNN
+F 3 "~" H 2350 1300 30  0000 C CNN
+	1    2350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 531334D7
+P 2350 2900
+F 0 "R18" V 2430 2900 40  0000 C CNN
+F 1 "20k" V 2357 2901 40  0000 C CNN
+F 2 "~" V 2280 2900 30  0000 C CNN
+F 3 "~" H 2350 2900 30  0000 C CNN
+	1    2350 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 531334E6
+P 2350 2200
+F 0 "R17" V 2430 2200 40  0000 C CNN
+F 1 "10k" V 2357 2201 40  0000 C CNN
+F 2 "~" V 2280 2200 30  0000 C CNN
+F 3 "~" H 2350 2200 30  0000 C CNN
+	1    2350 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 1250 1950 1050
+Wire Wire Line
+	1950 1050 1700 1050
+Wire Wire Line
+	2200 1550 2450 1550
+Connection ~ 2350 1550
+Wire Wire Line
+	1550 1550 1800 1550
+Connection ~ 1700 1550
+Wire Wire Line
+	2350 3250 2350 3150
+Wire Wire Line
+	2350 2450 2350 2650
+Wire Wire Line
+	2350 1950 2350 1850
+Wire Wire Line
+	2350 1850 2450 1850
+Wire Wire Line
+	2250 2550 2350 2550
+Connection ~ 2350 2550
+Text GLabel 1700 950  1    60   Input ~ 0
+3V3
+Text GLabel 2350 950  1    60   Input ~ 0
++5V
+Wire Wire Line
+	2350 1050 2350 950 
+Wire Wire Line
+	1700 1050 1700 950 
+Text GLabel 3350 1450 0    60   Input ~ 0
+TX_LV
+Text GLabel 3350 1550 0    60   Input ~ 0
+RX_LV
+Text GLabel 3400 1650 0    60   Input ~ 0
+3V3
+Wire Wire Line
+	3350 1450 3450 1450
+Wire Wire Line
+	3350 1550 3450 1550
+Wire Wire Line
+	3450 1650 3400 1650
+$Comp
+L CONN_3 P16
+U 1 1 531DEFE6
+P 3800 1550
+F 0 "P16" V 3750 1550 50  0000 C CNN
+F 1 "Serial" V 3850 1550 40  0000 C CNN
+F 2 "~" H 3800 1550 60  0000 C CNN
+F 3 "~" H 3800 1550 60  0000 C CNN
+	1    3800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR47
+U 1 1 53D93449
+P 2350 3250
+F 0 "#PWR47" H 2350 3250 30  0001 C CNN
+F 1 "GND" H 2350 3180 30  0001 C CNN
+F 2 "" H 2350 3250 60  0000 C CNN
+F 3 "" H 2350 3250 60  0000 C CNN
+	1    2350 3250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

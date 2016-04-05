@@ -1,0 +1,32 @@
+ERC Bericht (Di 25 Feb 2014 12:32:37 CET)
+
+***** Schaltplan /
+
+***** Schaltplan /ExtTEC/
+
+***** Schaltplan /Shield/
+ErrType(3): Pin ist mit anderen Pins verbunden, wird jedoch von keinem angesteuert
+    @ (125,73 mm,86,36 mm): Pin 5V (power_in) von Bauteil SHIELD1 wird nicht angesteuert (Netz 9).
+ErrType(3): Pin ist mit anderen Pins verbunden, wird jedoch von keinem angesteuert
+    @ (125,73 mm,93,98 mm): Pin V_IN (power_in) von Bauteil SHIELD1 wird nicht angesteuert (Netz 12).
+
+***** Schaltplan /X-Axis/
+
+***** Schaltplan /Y-Axis/
+
+***** Schaltplan /A-Axis/
+
+***** Schaltplan /End Stops/
+
+***** Schaltplan /Diode Driver/
+
+***** Schaltplan /A Axis Select/
+
+***** Schaltplan /5V Supply/
+ErrType(4): Konflikt zwischen Pins. Schweregrad: Warnung
+    @ (27,94 mm,21,59 mm): Pin 1 (power_out) von Bauteil #FLG038 ist verbunden mit 
+    @ (63,50 mm,27,94 mm): Pin 2 (BiDi) von Bauteil U4 (Netz 7).
+
+***** Schaltplan /External Fan/
+
+ >> ERC Fehler: 0

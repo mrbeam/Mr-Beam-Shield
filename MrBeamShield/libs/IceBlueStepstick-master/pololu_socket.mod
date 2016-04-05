@@ -1,0 +1,252 @@
+PCBNEW-LibModule-V1  Di 25 Feb 2014 17:27:53 CET
+# encoding utf-8
+Units mm
+$INDEX
+Pololu_Socket
+SIL-8
+$EndINDEX
+$MODULE Pololu_Socket
+Po 0 0 0 15 530CC459 00000000 ~~
+Li Pololu_Socket
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.27 1 1 0 0.15 N V 21 N "Pololu_Socket"
+T1 0 -1.27 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -8.89
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -6.35
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -3.81
+$EndPAD
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 3.81
+$EndPAD
+$PAD
+Sh "7" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 6.35
+$EndPAD
+$PAD
+Sh "8" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 8.89
+$EndPAD
+$PAD
+Sh "9" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 8.89
+$EndPAD
+$PAD
+Sh "10" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 6.35
+$EndPAD
+$PAD
+Sh "11" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 3.81
+$EndPAD
+$PAD
+Sh "12" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "13" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "14" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -3.81
+$EndPAD
+$PAD
+Sh "15" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.35
+$EndPAD
+$PAD
+Sh "16" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -8.89
+$EndPAD
+$EndMODULE Pololu_Socket
+$MODULE SIL-8
+Po 0 0 0 15 530CC1F6 00000000 ~~
+Li SIL-8
+Cd Connecteur 8 pins
+Kw CONN DEV
+Sc 0
+AR /517BB822
+Op 0 0 0
+T0 -2.54 0 1.72974 1.08712 0 0.27178 N I 21 N "P2"
+T1 2.54 0 1.524 1.016 0 0.254 N I 21 N "CONN_8"
+$PAD
+Sh "8" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "DIR"
+Po 8.89 6.35
+$EndPAD
+$PAD
+Sh "7" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 7 "STEP"
+Po 6.35 6.35
+$EndPAD
+$PAD
+Sh "6" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 6 "SLEEP"
+Po 3.81 6.35
+$EndPAD
+$PAD
+Sh "5" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 5 "RST"
+Po 1.27 6.35
+$EndPAD
+$PAD
+Sh "4" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 6.35
+$EndPAD
+$PAD
+Sh "3" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 4 "MS2"
+Po -3.81 6.35
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 3 "MS1"
+Po -6.35 6.35
+$EndPAD
+$PAD
+Sh "1" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "EN"
+Po -26.67 6.35
+$EndPAD
+$PAD
+Sh "1" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "EN"
+Po -8.89 -6.35
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 3 "MS1"
+Po -6.35 -6.35
+$EndPAD
+$PAD
+Sh "3" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 4 "MS2"
+Po -3.81 -6.35
+$EndPAD
+$PAD
+Sh "4" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -6.35
+$EndPAD
+$PAD
+Sh "5" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 5 "RST"
+Po 1.27 -6.35
+$EndPAD
+$PAD
+Sh "6" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 6 "SLEEP"
+Po 3.81 -6.35
+$EndPAD
+$PAD
+Sh "7" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 7 "STEP"
+Po 6.35 -6.35
+$EndPAD
+$PAD
+Sh "8" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "DIR"
+Po 8.89 -6.35
+$EndPAD
+$EndMODULE SIL-8
+$EndLIBRARY

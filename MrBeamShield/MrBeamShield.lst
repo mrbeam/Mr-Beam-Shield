@@ -1,0 +1,188 @@
+eeschema (2014-01-10 BZR 4027)-stable  >> Creation date: Thursday, 24 July 2014 15:52:53
+#Cmp ( order = Reference )
+| AUX1       AUX         
+| C1         100uF       
+| C2         100uF       
+| C3         100uF       
+| C4         100nF       
+| C5         4.7uF       
+| C6         2,2uF       
+| C7         100nF       
+| C8         22nF        
+| C9         2,2uF       
+| C10        100nF       
+| C11        22uF        
+| D1         MBRS540T3   
+| D2         MBRS540T3   
+| FAN1       LD Fan      
+| IC1        NC7WZ08K8X  
+| J1         JMP         
+| J2         JMP         
+| J4         JMP         
+| J7001      JMP         
+| J7002      JMP         
+| J7003      JMP         
+| JP1        xend1       
+| JP2        xend2       
+| JP3        yend1       
+| JP4        yend2       
+| JP5        zend1       
+| JP6        zend2       
+| JP7        Interlock   
+| JP8        CS1         
+| JP9        CS2         
+| JP10       CS3         
+| JP12       Arduino Pwr 
+| JP13       AUX         
+| K1         ExtTmp      
+| K2         A5          
+| K3         EXT_TEC     
+| K4         ExtLaserMod 
+| L1         54uH 1.5A   
+| P1         CONN_4      
+| P2         Reset       
+| P3         MachineCtrl 
+| P4         MS          
+| P5         CONN_4      
+| P6         MS          
+| P7         CONN_4      
+| P8         MS          
+| P9         CONN_4      
+| P10        LD_OUT      
+| P11        CONN_4      
+| P12        CONN_RPi    
+| P13        CONN_1_8    
+| P14        PWR IN      
+| P15        EXT 5V      
+| P16        Serial      
+| P17        CONN_9_16   
+| Q2         FDS8949     
+| Q3         BSS138      
+| R1         10k         
+| R2         10k         
+| R3         10k         
+| R4         10k         
+| R5         100k        
+| R6         100k        
+| R7         2.2k        
+| R8         169k        
+| R9         560m        
+| R10        240m        
+| R11        160m        
+| R12        560m        
+| R13        2k2         
+| R14        2k2         
+| R15        10k         
+| R16        10k         
+| R17        10k         
+| R18        20k         
+| R19        R           
+| R20        10k         
+| R21        R           
+| R22        150         
+| R23        10k         
+| R24        10k         
+| RV1        10K         
+| SHIELD1    ARDUINO_SHIELD
+| SW1        Reset_Btn   
+| U1         POLOLU_A4988
+| U2         POLOLU_A4988
+| U3         POLOLU_A4988
+| U4         R-785-1.0   
+| U5         LM3406      
+#End Cmp
+
+#Cmp ( order = Value )
+| AUX          AUX1      
+| 22nF         C8        
+| 100nF        C7        
+| 100nF        C10       
+| 100nF        C4        
+| 2,2uF        C6        
+| 2,2uF        C9        
+| 4.7uF        C5        
+| 22uF         C11       
+| 100uF        C1        
+| 100uF        C2        
+| 100uF        C3        
+| MBRS540T3    D1        
+| MBRS540T3    D2        
+| LD Fan       FAN1      
+| NC7WZ08K8X   IC1       
+| JMP          J1        
+| JMP          J2        
+| JMP          J4        
+| JMP          J7001     
+| JMP          J7002     
+| JMP          J7003     
+| xend1        JP1       
+| xend2        JP2       
+| yend1        JP3       
+| yend2        JP4       
+| zend1        JP5       
+| zend2        JP6       
+| Interlock    JP7       
+| CS1          JP8       
+| CS2          JP9       
+| CS3          JP10      
+| Arduino Pwr  JP12      
+| AUX          JP13      
+| ExtTmp       K1        
+| A5           K2        
+| EXT_TEC      K3        
+| ExtLaserMod  K4        
+| 54uH 1.5A    L1        
+| CONN_4       P1        
+| CONN_4       P11       
+| Reset        P2        
+| MachineCtrl  P3        
+| MS           P4        
+| MS           P6        
+| MS           P8        
+| CONN_4       P5        
+| CONN_4       P7        
+| CONN_4       P9        
+| LD_OUT       P10       
+| CONN_RPi     P12       
+| CONN_1_8     P13       
+| PWR IN       P14       
+| EXT 5V       P15       
+| Serial       P16       
+| CONN_9_16    P17       
+| BSS138       Q3        
+| FDS8949      Q2        
+| 160m         R11       
+| 240m         R10       
+| 560m         R12       
+| 560m         R9        
+| 150          R22       
+| 2.2k         R7        
+| 2k2          R13       
+| 2k2          R14       
+| 10k          R1        
+| 10k          R2        
+| 10k          R3        
+| 10k          R4        
+| 10k          R15       
+| 10k          R16       
+| 10k          R17       
+| 10k          R20       
+| 10k          R23       
+| 10k          R24       
+| 20k          R18       
+| 100k         R5        
+| 100k         R6        
+| 169k         R8        
+| R            R19       
+| R            R21       
+| 10K          RV1       
+| ARDUINO_SHIELD SHIELD1   
+| Reset_Btn    SW1       
+| POLOLU_A4988 U1        
+| POLOLU_A4988 U2        
+| POLOLU_A4988 U3        
+| LM3406       U5        
+| R-785-1.0    U4        
+#End Cmp
+
+#End List

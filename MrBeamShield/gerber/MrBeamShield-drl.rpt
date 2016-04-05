@@ -1,0 +1,21 @@
+Drill report for /Users/philipp/Documents/dev/lasercutter/mrbeamshield/MrBeamShield/MrBeamShield.kicad_pcb
+Created on Wednesday, 13 August 2014 18:32:45
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (10 holes)
+T2  0.60mm  0.024"  (6 holes)
+T3  0.81mm  0.032"  (34 holes)
+T4  1.00mm  0.039"  (2 holes)
+T5  1.00mm  0.039"  (64 holes)
+T6  1.00mm  0.039"  (4 holes)
+T7  1.02mm  0.040"  (123 holes)  (with 3 slots)
+T8  1.14mm  0.045"  (3 holes)
+T9  3.17mm  0.125"  (3 holes)
+
+Total plated holes count 249
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

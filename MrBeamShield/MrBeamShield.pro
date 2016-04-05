@@ -1,0 +1,86 @@
+update=Fri 11 Mar 2016 11:25:30 AM CET
+version=1
+last_client=kicad
+[cvpcb]
+version=1
+NetIExt=net
+LibDir=libs
+[cvpcb/libraries]
+LibDir=libs
+EquName1=devcms
+[general]
+version=1
+[pcbnew]
+version=1
+LastNetListRead=MrBeamShield.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    0,899160"
+PadSizeV="    1,000760"
+PcbTextSizeV="    1,000000"
+PcbTextSizeH="    1,000000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,000000"
+ModuleTextSizeH="    1,000000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,000000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
+[pcbnew/libraries]
+LibDir=libs;libs/stepstick_socket.pretty
+LibName1=my_footprints
+LibName2=smisioto.no-ip.org/w_capacitors
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_transistors
+LibName10=led
+LibName11=arduino_shields
+LibName12=lm3406
+LibName13=smd_soic_packages
+LibName14=smd_ssop_packages
+LibName15=WE-PD3
+LibName16=US8
+LibName17=smisioto.no-ip.org/w_smd_resistors
+LibName18=smisioto.no-ip.org/w_smd_trans
+LibName19=pavilion
+LibName20=logo_inv
+LibName21=MR_BEAM_36
+LibName22=a6210_3
+LibName23=OSHW_logo_KiCad_scalable/lib/oshw_logo_small
+LibName24=qrcode_small
+LibName25=logo/mister
+LibName26=logo/mister-mask
+LibName27=logo/typo_mask
+LibName28=logo/typo_mask_mirrored
+LibName29=logo/typo_mirrored
+LibName30=logo/typo
+LibName31=logo/typo_m
+LibName32=qr_8mm
+[eeschema]
+version=1
+LibDir=libs;libs/smisioto.no-ip.org;libs/converted;libs/IceBlueStepstick-master;libs/stepstick_socket.pretty
+[eeschema/libraries]
+LibName1=MrBeamShield-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=analog_switches
+LibName7=contrib
+LibName8=pololu_a4988
+LibName9=r-785-1.0
+LibName10=arduino_shieldsNCL
+LibName11=pololu_socket
+LibName12=allegro_6210
+LibName13=fds8949
+LibName14=zero_ohm
+LibName15=pavilion
+LibName16=op-amp
+LibName17=lm3406
