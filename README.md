@@ -13,7 +13,7 @@
 ### Who do I talk to? ###
 
 * The Mr Beam Shield was developed for the Mr Beam Laser Cutter Kit, published on Kickstarter May 2014
-* get in touch for any purpose: info@mr-beam.org
+* get in touch for any purpose: support@mr-beam.org
 
 ### LICENSE ###
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
